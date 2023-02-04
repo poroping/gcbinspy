@@ -10,7 +10,7 @@ readme = "README.md"
 dependencies = [
     "requests",
     "datetime",
-    "dateutil"
+    "dateutil",
     "bs4"
 ]
 requires-python = ">=3.10.0"
