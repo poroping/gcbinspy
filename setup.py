@@ -2,11 +2,10 @@ from setuptools import setup
 
 setup(
     name='gcbinspy',
-    version='0.0.2',
+    version='0.0.3',
     install_requires=[
         'requests',
-        'bs4',
-        'dateutil',
-        'datetime',
+        'beautifulsoup4',
+        'python-dateutil'
     ],
 )
