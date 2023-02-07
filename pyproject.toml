@@ -4,14 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gcbinspy"
-version = "0.0.2"
+version = "0.0.3"
 description = "Gold Coast bin days"
 readme = "README.md"
 dependencies = [
     "requests",
-    "datetime",
-    "dateutil",
-    "bs4"
+    "python-dateutil",
+    "beautifulsoup4"
 ]
 requires-python = ">=3.10.0"
 authors = [
