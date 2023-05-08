@@ -11,7 +11,7 @@ import gcbinspy
 
 address = "26 Eleventh Ave, Palm Beach QLD 4221"
 
-client = bins.GoldCoastBins(address)
+client = gcbinspy.GoldCoastBins(address)
 client.property_id()
 client.update_next_bin_days()
 print(client.next_landfill().isoformat())

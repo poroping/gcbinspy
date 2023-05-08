@@ -1,7 +1,7 @@
 import gcbinspy
 
-address = "2 Chinchilla Street"
-pid = "0602988f-8716-4743-81e3-781f4fd341c7"
+address = "26 Eleventh Ave, Palm Beach QLD 4221"
+# pid = "0602988f-8716-4743-81e3-781f4fd341c7"
 
 client = gcbinspy.GoldCoastBins(address)
 client.property_id()
